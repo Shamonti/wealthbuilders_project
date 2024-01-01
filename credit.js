@@ -8,8 +8,8 @@ $(document).ready(function () {
     infinite: false,
     autoplaySpeed: 5000,
     autoplay: true,
-    prevArrow: $('.prev'),
-    nextArrow: $('.next'),
+    nextArrow: $('.slick-next'),
+    prevArrow: $('.slick-prev'),
     responsive: [
       {
         breakpoint: 991,
