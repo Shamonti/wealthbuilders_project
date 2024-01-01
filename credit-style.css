@@ -1,8 +1,11 @@
 body {
-  background-color: #f5f5ff;
+  background-color: #ffffff;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 .wrapper {
-  padding: 70px 0;
+  padding: 30px 0;
   overflow-x: hidden;
 }
 
@@ -10,9 +13,9 @@ body {
   padding: 0 70px;
 }
 .slick-initialized .slick-slide {
-  background-color: #b32532;
+  background: transparent;
   color: #fff;
-  height: 200px;
+  height: 503px;
   margin: 0 15px 0 0;
   display: flex;
   align-items: center;
@@ -33,4 +36,46 @@ body {
 .slick-prev:before {
   color: #000;
   font-size: 26px;
+}
+
+.section-heading--box .heading--text h3 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.section-heading--box .heading--button button {
+  background-color: #156192;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.paginator {
+  position: relative;
+  float: right;
+  margin-bottom: 20px;
+
+  li {
+    margin-top: 20px;
+    position: relative;
+    float: left;
+
+    margin-right: 20px;
+
+    &.prev {
+      display: block;
+      height: 20px;
+      width: 20px;
+      background: url('img/back.png') no-repeat;
+    }
+
+    &.next {
+      display: block;
+      height: 20px;
+      width: 20px;
+      background: url('img/next.png') no-repeat;
+    }
+  }
 }

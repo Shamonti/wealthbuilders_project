@@ -1,13 +1,15 @@
 $(document).ready(function () {
   $('.my-slider').slick({
-    slidesToShow: 5,
+    slidesToShow: 3.6,
     slidesToScroll: 1,
     arrows: true,
     dots: true,
     speed: 300,
-    infinite: true,
+    infinite: false,
     autoplaySpeed: 5000,
     autoplay: true,
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
     responsive: [
       {
         breakpoint: 991,
