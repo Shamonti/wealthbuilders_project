@@ -5,7 +5,7 @@ $(document).ready(function () {
     arrows: true,
     dots: true,
     speed: 300,
-    infinite: false,
+    infinite: true,
     autoplaySpeed: 5000,
     autoplay: true,
     nextArrow: $('.slick-next'),
@@ -28,17 +28,17 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $('.screenshoots-slider').slick({
-    slidesToShow: 3.6,
+  $('.screenshots-slider').slick({
+    slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    dots: true,
+    dots: false,
     speed: 300,
-    infinite: false,
+    infinite: true,
     autoplaySpeed: 5000,
     autoplay: true,
-    nextArrow: $('.slick-next'),
-    prevArrow: $('.slick-prev'),
+    nextArrow: $('.slick-next2'),
+    prevArrow: $('.slick-prev2'),
     responsive: [
       {
         breakpoint: 991,
