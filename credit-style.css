@@ -32,11 +32,21 @@ body {
 .slick-initialized .slick-slide {
   background: transparent;
   color: #fff;
-  height: 503px;
   margin: 0 15px 0 0;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.slick-slide iframe {
+  height: 503px;
+}
+.slick-slide .user-details {
+  position: absolute;
+}
+.slick-slide .user-details h4 {
+  font-weight: 400;
+  font-size: 16px;
 }
 .my-slider-buttons {
   z-index: 5;
