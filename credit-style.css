@@ -63,3 +63,6 @@ body {
   height: 50px;
   background: url('img/next.png') no-repeat;
 }
+.modal-dialog {
+  top: 35vh;
+}
