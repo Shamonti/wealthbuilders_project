@@ -65,7 +65,7 @@
           type="button"
           class="btn testimonial-btn"
           data-toggle="modal"
-          data-target="#testimonialModal"
+          data-target="#creditTestimonialModal"
         >
           View Testimonials
         </button>
@@ -73,11 +73,11 @@
         <!-- Modal -->
         <div
           class="modal fade"
-          id="testimonialModal"
+          id="creditTestimonialModal"
           data-backdrop="static"
           data-keyboard="false"
           tabindex="-1"
-          aria-labelledby="testimonialModalLabel"
+          aria-labelledby="creditTestimonialModalLabel"
           aria-hidden=""
         >
           <div class="modal-dialog">
@@ -91,20 +91,19 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="wrapper2">
-              <div class="screenshots-slider">
-                <img src="img/testimonial_1.png" />
-                <img src="img/testimonial_1.png" />
-                <img src="img/testimonial_1.png" />
+            <div class="wrapper">
+              <div class="credit-screenshots-slider">
+                <img src="img/screenshots/credit/credit-screenshoot-01.jpg" />
+                <img src="img/screenshots/credit/credit-screenshoot-02.jpg" />
               </div>
-              <div class="screenshots-slider-buttons">
+              <div class="credit-screenshots-slider-buttons">
                 <button
-                  class="slick-prev2"
+                  class="credit-screenshots-prev"
                   aria-label="Previous2"
                   type="button"
                 ></button>
                 <button
-                  class="slick-next2"
+                  class="credit-screenshots-next"
                   aria-label="Next2"
                   type="button"
                 ></button>
@@ -115,22 +114,19 @@
       </div>
     </div>
     <div class="wrapper">
-      <div class="my-slider">
-        <div>
+      <div class="credit-slider">
+        <div class="credit-slide">
           <iframe
+            width="560"
+            height="315"
             src="https://player.vimeo.com/video/530949920?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             ?autoplay="true"
             frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            style="
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-            "
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             title="Video 1"
+            allowfullscreen
           ></iframe>
+
           <div class="user-details ml-3">
             <div class="user-name--box d-flex align-items-end mb-1">
               <div class="cicle"><img src="img/user_img.png" /></div>
@@ -143,10 +139,11 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
+            src="https://player.vimeo.com/video/530949920?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            title="Video 1"
             allowfullscreen
           ></iframe>
           <div class="user-details ml-3">
@@ -161,10 +158,30 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
+            src="https://player.vimeo.com/video/530949920?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            title="Video 1"
+            allowfullscreen
+          ></iframe>
+          <div class="user-details ml-3">
+            <div class="user-name--box d-flex align-items-end mb-1">
+              <div class="cicle"><img src="img/user_img.png" /></div>
+              <h4 class="ml-1">Nabiha Tahsin</h4>
+            </div>
+            <p>Video Title</p>
+          </div>
+        </div>
+        <div style>
+          <iframe
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/530949920?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            title="Video 1"
             allowfullscreen
           ></iframe>
           <div class="user-details ml-3">
@@ -179,28 +196,11 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
+            src="https://player.vimeo.com/video/530949920?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-          <div class="user-details ml-3">
-            <div class="user-name--box d-flex align-items-end mb-1">
-              <div class="cicle"><img src="img/user_img.png" /></div>
-              <h4 class="ml-1">Nabiha Tahsin</h4>
-            </div>
-            <p>Video Title</p>
-          </div>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            title="Video 1"
             allowfullscreen
           ></iframe>
           <div class="user-details ml-3">
@@ -212,9 +212,13 @@
           </div>
         </div>
       </div>
-      <div class="my-slider-buttons">
-        <button class="slick-prev" aria-label="Previous" type="button"></button>
-        <button class="slick-next" aria-label="Next" type="button"></button>
+      <div class="credit-slider-buttons">
+        <button
+          class="credit-prev"
+          aria-label="Previous"
+          type="button"
+        ></button>
+        <button class="credit-next" aria-label="Next" type="button"></button>
       </div>
     </div>
 
@@ -223,7 +227,7 @@
       class="section-heading--box d-flex justify-content-between align-items-center px-5 pt-5"
     >
       <div class="heading--text">
-        <h3>Our Credit Results</h3>
+        <h3>Our Forex Results</h3>
         <p>
           Don’t <a href="#" style="color: #d70000">Sign UP</a> before viewing
           our
@@ -233,7 +237,7 @@
           >
             Wealth Builders
           </a>
-          &nbsp;posts of our Credit Results on their social media.
+          &nbsp;posts of our Forex Results on their social media.
         </p>
       </div>
       <div class="heading--button">
@@ -268,21 +272,21 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-            <div class="wrapper3">
-              <div class="screenshots-slider2">
-                <img src="img/testimonial_1.png" />
-                <img src="img/testimonial_1.png" />
-                <img src="img/testimonial_1.png" />
+            <div class="wrapper">
+              <div class="forex-screenshots-slider">
+                <img src="img/screenshots/forex/forex-screenshoot-01.jpeg" />
+                <img src="img/screenshots/forex/forex-screenshoot-02.jpeg" />
+                <img src="img/screenshots/forex/forex-screenshoot-03.jpeg" />
               </div>
-              <div class="screenshots-slider-buttons">
+              <div class="forex-screenshots-slider-buttons">
                 <button
-                  class="slick-prev2"
-                  aria-label="Previous2"
+                  class="forex-screenshots-prev"
+                  aria-label="Previous3"
                   type="button"
                 ></button>
                 <button
-                  class="slick-next2"
-                  aria-label="Next2"
+                  class="forex-screenshots-next"
+                  aria-label="Next3"
                   type="button"
                 ></button>
               </div>
@@ -292,13 +296,13 @@
       </div>
     </div>
     <div class="wrapper">
-      <div class="my-slider2">
-        <div>
+      <div class="forex-slider">
+        <div class="forex-slide">
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
@@ -315,8 +319,8 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
@@ -333,8 +337,26 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="user-details ml-3">
+            <div class="user-name--box d-flex align-items-end mb-1">
+              <div class="cicle"><img src="img/user_img.png" /></div>
+              <h4 class="ml-1">Nabiha Tahsin</h4>
+            </div>
+            <p>Video Title</p>
+          </div>
+        </div>
+        <div style>
+          <iframe
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
@@ -351,26 +373,8 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-          <div class="user-details ml-3">
-            <div class="user-name--box d-flex align-items-end mb-1">
-              <div class="cicle"><img src="img/user_img.png" /></div>
-              <h4 class="ml-1">Nabiha Tahsin</h4>
-            </div>
-            <p>Video Title</p>
-          </div>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/nDLb8_wgX50?si=Tb5rIflY83L-aMTG"
-            title="YouTube video player"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
@@ -384,9 +388,194 @@
           </div>
         </div>
       </div>
-      <div class="my-slider-buttons">
-        <button class="slick-prev" aria-label="Previous" type="button"></button>
-        <button class="slick-next" aria-label="Next" type="button"></button>
+      <div class="forex-slider-buttons">
+        <button class="forex-prev" aria-label="Previous" type="button"></button>
+        <button class="forex-next" aria-label="Next" type="button"></button>
+      </div>
+    </div>
+
+    <!-- E-commerce Testimonial -->
+    <div
+      class="section-heading--box d-flex justify-content-between align-items-center px-5 pt-5"
+    >
+      <div class="heading--text">
+        <h3>Our E-commerce Results</h3>
+        <p>
+          Don’t <a href="#" style="color: #d70000">Sign UP</a> before viewing
+          our
+          <a
+            href="https://www.thewealthbuilders.me/"
+            style="color: black; text-decoration: underline"
+          >
+            Wealth Builders
+          </a>
+          &nbsp;posts of our E-commerce Results on their social media.
+        </p>
+      </div>
+      <div class="heading--button">
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn testimonial-btn"
+          data-toggle="modal"
+          data-target="#ecommerceTestimonialModal"
+        >
+          View Testimonials
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="ecommerceTestimonialModal"
+          data-backdrop="static"
+          data-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="ecommerceTestimonialModalLabel"
+          aria-hidden=""
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="wrapper">
+              <div class="ecommerce-screenshots-slider">
+                <img
+                  src="img/screenshots/ecommerce/ecommerce-screenshoot-01.jpeg"
+                />
+                <img
+                  src="img/screenshots/ecommerce/ecommerce-screenshoot-02.jpeg"
+                />
+                <img
+                  src="img/screenshots/ecommerce/ecommerce-screenshoot-03.jpeg"
+                />
+                <img
+                  src="img/screenshots/ecommerce/ecommerce-screenshoot-04.jpeg"
+                />
+              </div>
+              <div class="ecommerce-screenshots-slider-buttons">
+                <button
+                  class="ecommerce-screenshots-prev"
+                  aria-label="Previous3"
+                  type="button"
+                ></button>
+                <button
+                  class="ecommerce-screenshots-next"
+                  aria-label="Next3"
+                  type="button"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="ecommerce-slider">
+        <div class="ecommerce-slide">
+          <iframe
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="user-details ml-3">
+            <div class="user-name--box d-flex align-items-end mb-1">
+              <div class="cicle"><img src="img/user_img.png" /></div>
+              <h4 class="ml-1">Nabiha Tahsin</h4>
+            </div>
+            <p>Video Title</p>
+          </div>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="user-details ml-3">
+            <div class="user-name--box d-flex align-items-end mb-1">
+              <div class="cicle"><img src="img/user_img.png" /></div>
+              <h4 class="ml-1">Nabiha Tahsin</h4>
+            </div>
+            <p>Video Title</p>
+          </div>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="user-details ml-3">
+            <div class="user-name--box d-flex align-items-end mb-1">
+              <div class="cicle"><img src="img/user_img.png" /></div>
+              <h4 class="ml-1">Nabiha Tahsin</h4>
+            </div>
+            <p>Video Title</p>
+          </div>
+        </div>
+        <div style>
+          <iframe
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="user-details ml-3">
+            <div class="user-name--box d-flex align-items-end mb-1">
+              <div class="cicle"><img src="img/user_img.png" /></div>
+              <h4 class="ml-1">Nabiha Tahsin</h4>
+            </div>
+            <p>Video Title</p>
+          </div>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/10985679?h=7008dd1c79&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            ?autoplay="true"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="user-details ml-3">
+            <div class="user-name--box d-flex align-items-end mb-1">
+              <div class="cicle"><img src="img/user_img.png" /></div>
+              <h4 class="ml-1">Nabiha Tahsin</h4>
+            </div>
+            <p>Video Title</p>
+          </div>
+        </div>
+      </div>
+      <div class="ecommerce-slider-buttons">
+        <button
+          class="ecommerce-prev"
+          aria-label="Previous"
+          type="button"
+        ></button>
+        <button class="ecommerce-next" aria-label="Next" type="button"></button>
       </div>
     </div>
 
