@@ -7,7 +7,7 @@ $(document).ready(function () {
     speed: 300,
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true,
+    autoplay: false,
     nextArrow: $('.credit-next'),
     prevArrow: $('.credit-prev'),
     responsive: [
@@ -36,7 +36,7 @@ $(document).ready(function () {
     speed: 300,
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true,
+    autoplay: false,
     nextArrow: $('.credit-screenshots-next'),
     prevArrow: $('.credit-screenshots-prev'),
     responsive: [
@@ -64,7 +64,7 @@ $(document).ready(function () {
     speed: 300,
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true,
+    autoplay: false,
     nextArrow: $('.forex-next'),
     prevArrow: $('.forex-prev'),
     responsive: [
@@ -93,7 +93,7 @@ $(document).ready(function () {
     speed: 300,
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true,
+    autoplay: false,
     nextArrow: $('.forex-screenshots-next'),
     prevArrow: $('.forex-screenshots-prev'),
     responsive: [
@@ -122,7 +122,7 @@ $(document).ready(function () {
     speed: 300,
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true,
+    autoplay: false,
     nextArrow: $('.ecommerce-next'),
     prevArrow: $('.ecommerce-prev'),
     responsive: [
@@ -151,7 +151,7 @@ $(document).ready(function () {
     speed: 300,
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true,
+    autoplay: false,
     nextArrow: $('.ecommerce-screenshots-next'),
     prevArrow: $('.ecommerce-screenshots-prev'),
     responsive: [
